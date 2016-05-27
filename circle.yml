@@ -5,7 +5,7 @@ deployment:
   dockerhub:
     branch: master
     commands:
-      - $DOCKER
+      - $DOCKER_CI
 
 test:
   override:    
